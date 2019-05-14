@@ -1,12 +1,12 @@
-n1 = input()
-n2 = input()
-n3 =input()
+num1 = int(input())
+num2 = int(input())
+num3 = int(input())
  
-if (n1 > n2) and (n1 > n3):
-   larg = n1
-elif (n2 > n1) and (n2 > n3):
-   larg = n2
+if (num1 > num2) and (num1 > num3):
+   largest = num1
+elif (num2 > num1) and (num2 > num3):
+   largest = num2
 else:
-   larg = n3
+   largest = num3
  
-print(larg)
+print(largest)
