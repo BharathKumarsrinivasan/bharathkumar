@@ -1,3 +1,2 @@
-n=int(input())
-m=int(input())
+  n,m=input().split()
 print(int(n)**int(m))
