@@ -1,4 +1,4 @@
-n,v=map(int,input().split(" "))
+n,v=map(int,input().split())
 set=list(map(int,input().split()))
 subset=list(map(int,input().split()))
 z=0
