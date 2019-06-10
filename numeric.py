@@ -1,4 +1,6 @@
 n=input()
+
+
 if n.isdigit():
     print("Yes")
 else:
